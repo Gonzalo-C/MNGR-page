@@ -3,511 +3,659 @@
   <head>
     <title>Home</title>
     <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Libre+Franklin:200,300,500,600,300italic">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CLato:300,400,700,900%7CKalam:300,400,700%7COswald:300,400,500,600,700">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <!--Page-->
-    <div class="page">
-      <div id="page-loader">
-        <div class="cssload-container">
-          <div class="cssload-speeding-wheel"></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-bell">
+          <div class="cssload-circle">
+            <div class="cssload-inner"></div>
+          </div>
+          <div class="cssload-circle">
+            <div class="cssload-inner"></div>
+          </div>
+          <div class="cssload-circle">
+            <div class="cssload-inner"></div>
+          </div>
+          <div class="cssload-circle">
+            <div class="cssload-inner"></div>
+          </div>
+          <div class="cssload-circle">
+            <div class="cssload-inner"></div>
+          </div>
         </div>
-      </div><a class="section section-banner d-none d-xl-flex" href="//www.templatemonster.com/website-templates/monstroid2.html" style="background-image: url(images/banner/banner-bg-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/banner-bg-04-1920x60.jpg) 1x, url(images/banner/banner-bg-04-3840x120.jpg) 2x )"><img src="images/banner/banner-fg-04-1600x60.png" srcset="images/banner/banner-fg-04-1600x60.png 1x, images/banner/banner-fg-04-3200x120.png 2x" alt="" width="1600" height="310"></a>
-      <!--Page Header-->
-      <header class="page-header">
-        <!--RD Navbar-->
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header context-dark">
+        <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
-          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-stick-up-clone="false" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true" data-lg-stick-up-offset="69px" data-xl-stick-up-offset="1px" data-xxl-stick-up-offset="1px">
-            <div class="rd-navbar-inner">
-              <!--RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                <!--RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/logo-200x32.png" alt="" width="200" height="32"/></a></div>
+          <nav class="rd-navbar rd-navbar-modern" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="100px" data-xl-stick-up-offset="120px" data-xxl-stick-up-offset="140px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+            <div class="rd-navbar-aside-outer">
+              <div class="rd-navbar-aside">
+                <div class="rd-navbar-collapse">
+                  <div class="contacts-ruth">
+                    <div class="unit unit-spacing-sm align-items-center">
+                      <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
+                      <div class="unit-body"><a href="#">523 Sylvan Ave<br/>Mountain View, CA 94041 USA</a></div>
+                    </div>
+                  </div>
+                  <div class="rd-navbar-button-2"><span class="icon mdi mdi-phone offset-right-18 icon-24"></span>
+                    <h4><a class="link-gray-800" href="tel:#">800-2345-6789</a></h4>
+                  </div>
+                </div>
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-127x53.png" alt="" width="127" height="53" srcset="images/logo-default-254x76.png 2x"/><img class="brand-logo-light" src="images/logo-inverse-127x53.png" alt="" width="127" height="53" srcset="images/logo-inverse-254x76.png 2x"/></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-button"><span class="icon mdi mdi-phone offset-right-18 icon-24"></span>
+                  <h4><a class="link-secondary" href="tel:#">800-2345-6789</a></h4>
+                </div>
               </div>
-              <!--RD Navbar Nav-->
-              <div class="rd-navbar-nav-wrap">
-                <ul class="rd-navbar-nav">
-                  <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="typography.html">Typography</a></li>
-                  <li><a href="contacts.html">Contacts</a></li>
-                </ul>
+            </div>
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <div class="rd-navbar-nav-wrap">
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="repairs.html">Repairs</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="blog.html">Blog</a>
+                      <!-- RD Navbar Dropdown-->
+                      <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="blog-post.html">Blog Post</a></li>
+                      </ul>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Elements</a>
+                      <!-- RD Navbar Megamenu-->
+                      <ul class="rd-menu rd-navbar-megamenu">
+                        <li class="rd-megamenu-item">
+                          <div class="rd-megamenu-title"><span class="rd-megamenu-icon mdi mdi-apps"></span><span class="rd-megamenu-text">Elements</span></div>
+                          <ul class="rd-megamenu-list rd-megamenu-list-2">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="typography.html">Typography</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="icon-lists.html">Icon lists</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="progress-bars.html">Progress bars</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="calls-to-action.html">Calls to action</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tabs-and-accordions.html">Tabs &amp; accordions</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="buttons.html">Buttons</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tables.html">Tables</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="forms.html">Forms</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="counters.html">Counters</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="grid-system.html">Grid system</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tractor-parts.html">Tractor Parts</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="testimonials.html">Testimonials</a></li>
+                          </ul>
+                        </li>
+                        <li class="rd-megamenu-item flex-grow-1 flex-shrink-0">
+                          <div class="rd-megamenu-title"><span class="rd-megamenu-icon mdi mdi-layers"></span><span class="rd-megamenu-text">Additional pages</span></div>
+                          <ul class="rd-megamenu-list">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="404-page.html">404 Page</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="coming-soon.html">Coming Soon</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="privacy-policy.html">Privacy Policy</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="our-team.html">Our Team</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="search-results.html">Search Results</a></li>
+                          </ul>
+                        </li>
+                        <li class="rd-megamenu-item rd-megamenu-banner">
+                          <div class="rd-megamenu-title"><span class="rd-megamenu-icon icon linearicons-cog"></span><span class="rd-megamenu-text">Welcome to Fixit</span></div><a class="banner-classic" href="#"><img src="images/banner-1-300x202.jpg" alt="" width="300" height="202"/></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <!-- RD Navbar Search-->
+                  <div class="rd-navbar-search rd-navbar-search-2">
+                    <button class="rd-navbar-search-toggle rd-navbar-fixed-element-3" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
+                    <form class="rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
+                      <div class="form-wrap">
+                        <label class="form-label" for="rd-navbar-search-form-input">Search...</label>
+                        <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off"/>
+                        <div class="rd-search-results-live" id="rd-search-results-live"></div>
+                        <button class="rd-search-form-submit fl-bigmug-line-search74" type="submit"></button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
           </nav>
         </div>
       </header>
-      <!--Swiper-->
-      <section>
-        <div class="swiper-container swiper-slider swiper-slider_fullheight" data-simulate-touch="false" data-loop="false" data-autoplay="false">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide swiper-slide_video context-dark video-bg-overlay">
-                    <!--RD Video-->
-                    <div class="vide_bg" data-vide-bg="video/video-lg" data-vide-options="posterType: jpg">
-                      <div class="swiper-slide-caption text-center">
-                        <div class="container">
-                          <h2 data-caption-animate="fadeInUpSmall">Built by geeks & used by humans</h2>
-                          <h5 class="text-width-2 block-centered" data-caption-animate="fadeInUpSmall" data-caption-delay="200">Monstroid<sup>2</sup> aims to satisfy real needs of real projects. We've got a pack of tools for that.</h5>
-                          <div class="group-lg group-middle"><a class="button button-black" data-caption-animate="fadeInUpSmall" data-caption-delay="350" href="#section-see-features" data-custom-scroll-to="section-see-features">See Features</a><a class="button button-primary" data-caption-animate="fadeInUpSmall" data-caption-delay="350" data-custom-scroll-to="section-subscribe" href="#section-subscribe">Subscribe</a></div>
+      <!-- Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-3" data-loop="true" data-autoplay="true">
+        <div class="swiper-wrapper context-dark">
+          <div class="swiper-slide text-center text-lg-right overlay-custom" data-slide-bg="images/slide-1.jpg">
+            <div class="swiper-slide-caption section-xl section-main">
+              <div class="container">
+                <h1 class="swiper-title-1" data-caption-animate="fadeInLeft" data-caption-delay="100">Agricultural</h1>
+                <h1 class="swiper-title-1" data-caption-animate="fadeInLeft" data-caption-delay="250">Machinery</h1>
+                <h1 class="swiper-title-1" data-caption-animate="fadeInLeft" data-caption-delay="400">Repair</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide text-center text-lg-left overlay-custom" data-slide-bg="images/slide-2.jpg">
+            <div class="swiper-slide-caption section-xl">
+              <div class="container">
+                <h1 class="swiper-title-1" data-caption-animate="fadeInLeft" data-caption-delay="100">You can trust</h1>
+                <h1 class="swiper-title-1" data-caption-animate="fadeInLeft" data-caption-delay="250">Our Technicians</h1>
+                <h6 class="swiper-title-3 box-1" data-caption-animate="fadeInLeft" data-caption-delay="400">We have gathered a team of reliable agricultural machinery technicians that are always ready to help you.</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper Pagination-->
+        <div class="swiper-pagination"></div>
+        <!-- Swiper Navigation-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </section>
+
+      <!-- Promo-->
+      <section class="section section-sm section-top-0 bg-default offset-negative-1">
+        <div class="container">
+          <article class="promo-classic">
+            <h2 class="promo-classic-title">Who We Are</h2>
+            <p class="big promo-classic-text">For more than 20 years, FixIt’s team has been servicing new and used tractors and other agricultural machinery, while also offering a wide variety of replacement parts for them.</p><a class="button button-sm button-icon-3 button-secondary button-zakaria button-zakaria-2 fa-rotate-90" href="https://youtu.be/FpZRIhy-ask" data-lightgallery="item"><span class="promo-classic-icon mdi mdi-triangle"></span></a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Services-->
+      <section class="section section-sm section-last bg-default">
+        <div class="container">
+          <h2 class="wow fadeScale">Services</h2>
+          <!-- Owl Carousel-->
+          <div class="owl-carousel owl-style-8" data-items="1" data-sm-items="2" data-lg-items="3" data-margin="30" data-dots="true" data-mouse-drag="false">
+            <article class="box-info-modern wow slideInUp" data-wow-delay=".1s"><a class="box-info-modern-figure" href="about-us.html"><img src="images/about-1-340x243.jpg" alt="" width="340" height="243"/></a>
+              <h4 class="box-info-modern-title"><a href="about-us.html">Diagnostics</a></h4>
+              <div class="box-info-modern-text">Our skilled technicians provide high-quality diagnostic services for tractors and other agricultural machinery.</div><a class="box-info-modern-link" href="about-us.html">Read more</a>
+            </article>
+            <article class="box-info-modern wow slideInUp"><a class="box-info-modern-figure" href="about-us.html"><img src="images/about-2-340x243.jpg" alt="" width="340" height="243"/></a>
+              <h4 class="box-info-modern-title"><a href="about-us.html">Tractor maintenance</a></h4>
+              <div class="box-info-modern-text">Our company also provides reliable tractor maintenance services that are guaranteed to prevent any functional issues.</div><a class="box-info-modern-link" href="about-us.html">Read more</a>
+            </article>
+            <article class="box-info-modern wow slideInUp" data-wow-delay=".1s"><a class="box-info-modern-figure" href="about-us.html"><img src="images/about-3-340x243.jpg" alt="" width="340" height="243"/></a>
+              <h4 class="box-info-modern-title"><a href="about-us.html">Machinery Repair</a></h4>
+              <div class="box-info-modern-text">FixIt offers all levels of agricultural machinery repair services with a wide variety of supported equipment.</div><a class="box-info-modern-link" href="about-us.html">Read more</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why choose us-->
+      <section class="section section-xxl section-xxl-2 context-dark bg-image-8">
+        <div class="container">
+          <h2 class="wow fadeScale">Why choose us</h2>
+          <div class="row row-xl row-xxl-2 row-30 row-md-40 row-lg-50 align-items-center">
+            <div class="col-md-5 col-xl-4">
+              <div class="row row-30 row-md-40 row-lg-50 bordered-2">
+                <div class="col-sm-6 col-md-12">
+                  <article class="box-icon-nancy box-icon-nancy-right text-center text-lg-right wow fadeInLeft">
+                    <div class="unit unit-spacing-sm flex-column flex-lg-row-reverse">
+                      <div class="unit-left">
+                        <div class="box-icon-nancy-svg"><span class="icon linearicons-menu3 icon-65"></span>
                         </div>
                       </div>
+                      <div class="unit-body">
+                        <h4 class="box-icon-nancy-title"><a href="#">100% Warranty </a></h4>
+                        <p class="box-icon-nancy-text">We provide a full warranty on all tractor repair and maintenance services that FixIt’s team provides.</p>
+                      </div>
                     </div>
-            </div>
-            <div class="swiper-slide bg-gray-lighter" data-slide-bg="images/slider-slide-1-1920x980.jpg">
-              <div class="swiper-slide-caption text-center">
-                <div class="container">
-                  <h1 data-caption-animate="fadeInUpSmall"><span>Monstroid</span><sup class="text-accent">2</sup></h1>
-                  <h3 data-caption-animate="fadeInUpSmall" data-caption-delay="200">New HTML Templates Generation</h3>
-                  <div class="group-lg group-middle"><a class="button button-primary" data-caption-animate="fadeInUpSmall" data-caption-delay="350" href="#section-see-features" data-custom-scroll-to="section-see-features">See Features</a><a class="button button-black" data-caption-animate="fadeInUpSmall" data-caption-delay="350" data-custom-scroll-to="section-subscribe" href="#section-subscribe">Subscribe</a></div>
+                  </article>
+                </div>
+                <div class="col-sm-6 col-md-12">
+                  <article class="box-icon-nancy box-icon-nancy-right text-center text-lg-right wow fadeInLeft" data-wow-delay=".1s">
+                    <div class="unit unit-spacing-sm flex-column flex-lg-row-reverse">
+                      <div class="unit-left">
+                        <div class="box-icon-nancy-svg"><span class="icon icon-65 linearicons-wrench"></span>
+                        </div>
+                      </div>
+                      <div class="unit-body">
+                        <h4 class="box-icon-nancy-title"><a href="#">Modern tools</a></h4>
+                        <p class="box-icon-nancy-text">FixIt uses the latest equipment in the repair of tractors, combine harvesters and other machinery.</p>
+                      </div>
+                    </div>
+                  </article>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide swiper-slide_top bg-accent" data-slide-bg="images/slider-slide-2-1920x980.jpg">
-              <div class="swiper-slide-caption">
-                <div class="container">
-                  <h2 data-caption-animate="fadeInLeftSmall">The Power of Bootstrap<br class="d-none d-lg-block">Discover it with Monstroid²</h2><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="200" data-custom-scroll-to="section-subscribe" href="#section-subscribe">Subscribe</a>
+            <div class="col-md-2 col-xl-4 d-none d-md-block wow fadeScale"></div>
+            <div class="col-md-5 col-xl-4">
+              <div class="row row-30 row-md-40 row-lg-50 bordered-2">
+                <div class="col-sm-6 col-md-12">
+                  <article class="box-icon-nancy box-icon-nancy-left text-center text-lg-left wow fadeInRigth">
+                    <div class="unit unit-spacing-sm flex-column flex-lg-row">
+                      <div class="unit-left">
+                        <div class="box-icon-nancy-svg"><span class="icon icon-65 linearicons-power"></span>
+                        </div>
+                      </div>
+                      <div class="unit-body">
+                        <h4 class="box-icon-nancy-title"><a href="#">We work fast</a></h4>
+                        <p class="box-icon-nancy-text">We guarantee quick results as our team works fast to make your agricultural equipment fully functional.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-sm-6 col-md-12">
+                  <article class="box-icon-nancy box-icon-nancy-left text-center text-lg-left wow fadeInRight" data-wow-delay=".1s">
+                    <div class="unit unit-spacing-sm flex-column flex-lg-row">
+                      <div class="unit-left">
+                        <div class="box-icon-nancy-svg"><span class="icon icon-65 span icon icon-65 linearicons-cog"></span>
+                        </div>
+                      </div>
+                      <div class="unit-body">
+                        <h4 class="box-icon-nancy-title"><a href="#">Own Parts Store</a></h4>
+                        <p class="box-icon-nancy-text">Our replacement parts store offers a variety of parts for tractors, combines, and mowers of all brands.</p>
+                      </div>
+                    </div>
+                  </article>
                 </div>
               </div>
             </div>
           </div>
-          <!--Swiper Pagination-->
-          <div class="swiper-pagination"></div>
-          <!--Swiper Navigation-->
-          <div class="swiper-button-prev linear-icon-chevron-left"></div>
-          <div class="swiper-button-next linear-icon-chevron-right"></div>
         </div>
       </section>
-      <!--Presentation-->
-      <section class="section-xl bg-default text-center" id="section-see-features">
+
+      <!-- About FixIt-->
+      <section class="section section-xxl bg-default">
         <div class="container">
-          <div class="row justify-content-lg-center">
-            <div class="col-lg-10 col-xl-8">
-              <h3>Consistency is the key</h3>
-              <p>Monstroid² boasts clean and crispy design, bulletproof layout consistency and intuitive navigation. The template was created by top industry leaders in web design and user experience. Improve your audience engagement and loyalty with simple and user friendly tools offered by our template.</p>
+          <h2 class="wow fadeScale">About FixIt</h2>
+          <div class="row row-30 row-lg justify-content-center">
+            <div class="col-sm-8 col-md-7 col-lg-6 wow fadeInLeft"><img src="images/about-4-570x511.jpg" alt="" width="570" height="511"/>
+            </div>
+            <div class="col-md-10 col-lg-6 wow fadeInRight">
+              <!-- Bootstrap tabs-->
+              <div class="tabs-custom tabs-jean" id="tabs-1">
+                <!-- Tab panes-->
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="tabs-1-1">
+                    <div class="box-info-creative">
+                      <h5 class="box-info-creative-title"><a href="#">since 1999, we have been delivering quality tractor repair services</a></h5>
+                      <div class="box-info-creative-text">FixIt was founded with the intention of providing agricultural machinery repair services of the top level so that even small farmers could have their equipment fully functional.</div><a class="link-classic box-info-creative-link" href="#">Read more</a>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-1-2">
+                    <div class="box-info-creative">
+                      <h5 class="box-info-creative-title"><a href="#">Being a global leader in providing quality tractor repair services</a></h5>
+                      <div class="box-info-creative-text">Our company aims to be your preffered partner in tractor and combine repairs by achieving excellence in everything we do. We also strive to remain customer-oriented.</div><a class="link-classic box-info-creative-link" href="#">Read more</a>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-1-3">
+                    <div class="box-info-creative">
+                      <h4 class="box-info-creative-title"><a href="#">We aim to help our customers maintain their agricultural machinery</a></h4>
+                      <div class="box-info-creative-text">We help our customers succeed by providing premier repair & maintenance solutions for a wide variety of agricultural machinery through teamwork and professional excellence.</div><a class="link-classic box-info-creative-link" href="#">Read more</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Nav tabs-->
+                <div class="nav-tabs-wrap">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-1-1" data-toggle="tab">about us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-toggle="tab">our vision</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-3" data-toggle="tab">our mission</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <!--The Power of Bootstrap Toolkit-->
-      <section class="bg-gray-lighter object-wrap">
-        <div class="section-xxl section-xxl_bigger">
+
+      <!-- Out Team-->
+      <section class="section section-xxl context-dark bg-image-1">
+        <div class="container">
+          <h2 class="wow fadeScale">Our team</h2>
+          <!-- Owl Carousel-->
+          <div class="owl-carousel owl-style-10" data-items="1" data-sm-items="2" data-lg-items="3" data-margin="30" data-dots="true" data-mouse-drag="false">
+            <article class="team-creative wow slideInUp" data-wow-delay=".1s">
+              <div class="team-creative-header"><a class="team-creative-figure" href="#"><img src="images/team-8-249x249.jpg" alt="" width="249" height="249"/></a>
+                <div class="team-creative-decor"></div>
+              </div>
+              <div class="team-creative-body">
+                <h4 class="team-creative-name"><a href="#">richard smith</a></h4>
+                <p class="team-creative-text opacity-50">Richard has a wide experience in every field of tractor repair as he’s been in the industry for over 20 years.</p>
+                <ul class="list-inline team-creative-list-social list-social-2 list-social-2-2 list-inline-sm">
+                  <li><a class="icon mdi mdi-facebook" href="#"></a></li>
+                  <li><a class="icon mdi mdi-twitter" href="#"></a></li>
+                  <li><a class="icon mdi mdi-instagram" href="#"></a></li>
+                  <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
+                </ul>
+              </div>
+            </article>
+            <article class="team-creative wow slideInUp">
+              <div class="team-creative-header"><a class="team-creative-figure" href="#"><img src="images/team-9-249x249.jpg" alt="" width="249" height="249"/></a>
+                <div class="team-creative-decor"></div>
+              </div>
+              <div class="team-creative-body">
+                <h4 class="team-creative-name"><a href="#">John Williams</a></h4>
+                <p class="team-creative-text opacity-50">John is the sales manager at FixIt parts store who joined our team 5 years ago as a junior technician.</p>
+                <ul class="list-inline team-creative-list-social list-social-2 list-social-2-2 list-inline-sm">
+                  <li><a class="icon mdi mdi-facebook" href="#"></a></li>
+                  <li><a class="icon mdi mdi-twitter" href="#"></a></li>
+                  <li><a class="icon mdi mdi-instagram" href="#"></a></li>
+                  <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
+                </ul>
+              </div>
+            </article>
+            <article class="team-creative wow slideInUp" data-wow-delay=".1s">
+              <div class="team-creative-header"><a class="team-creative-figure" href="#"><img src="images/team-10-249x249.jpg" alt="" width="249" height="249"/></a>
+                <div class="team-creative-decor"></div>
+              </div>
+              <div class="team-creative-body">
+                <h4 class="team-creative-name"><a href="#">Peter McMillan</a></h4>
+                <p class="team-creative-text opacity-50">Peter is one of our primary technicians at FixIt who has vast expertise in repairing tractors and combines.</p>
+                <ul class="list-inline team-creative-list-social list-social-2 list-social-2-2 list-inline-sm">
+                  <li><a class="icon mdi mdi-facebook" href="#"></a></li>
+                  <li><a class="icon mdi mdi-twitter" href="#"></a></li>
+                  <li><a class="icon mdi mdi-instagram" href="#"></a></li>
+                  <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA-->
+      <section class="section section-xxl section-inset-1 context-dark bg-image" style="background-image: url(images/bg-cta-1.jpg);">
+        <div class="container box-cta">
+          <h4 class="text-secondary font-weight-medium wow fadeInDown">Free diagnostics</h4>
+          <h2 class="wow fadeScale">Quality tractor Maintenance</h2><a class="button button-lg button-shadow-2 button-secondary button-zakaria wow fadeInUp" href="#">send request</a>
+        </div>
+      </section>
+
+      <!-- Testimonials-->
+      <section class="section section-xxl bg-default">
+        <div class="container">
+          <h2 class="wow fadeScale">Testimonials</h2>
+          <!-- Owl Carousel-->
+          <div class="owl-carousel owl-style-11" data-items="1" data-sm-items="2" data-margin="30" data-dots="true" data-autoplay="false">
+            <!-- Quote Carly-->
+            <article class="quote-carly quote-carly-1">
+              <div class="quote-carly-text">
+                <div class="q">I take my equipment to FixIt because their hourly rate is wonderful. When you take farm equipment in, it will be repaired in a timely manner.</div>
+              </div>
+              <div class="quote-carly-footer">
+                <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                  <div class="unit-left">
+                    <div class="quote-carly-figure"><img src="images/user-10-62x62.jpg" alt="" width="62" height="62"/>
+                    </div>
+                  </div>
+                  <div class="unit-body">
+                    <div class="quote-carly-author">Patrick Goodman</div>
+                    <div class="quote-carly-status">Client</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- Quote Carly-->
+            <article class="quote-carly quote-carly-1">
+              <div class="quote-carly-text">
+                <div class="q">I am so pleased with the service at FixIt. I explained the problem I had with my tractor and they had it repaired in a couple of hours.</div>
+              </div>
+              <div class="quote-carly-footer">
+                <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                  <div class="unit-left">
+                    <div class="quote-carly-figure"><img src="images/user-11-62x62.jpg" alt="" width="62" height="62"/>
+                    </div>
+                  </div>
+                  <div class="unit-body">
+                    <div class="quote-carly-author">Jane Smith</div>
+                    <div class="quote-carly-status">Client</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- Quote Carly-->
+            <article class="quote-carly quote-carly-1">
+              <div class="quote-carly-text">
+                <div class="q">From the time I walked in the door right up to my tractor’s delivery, everyone was friendly, courteous, helpful and answered all my questions.</div>
+              </div>
+              <div class="quote-carly-footer">
+                <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                  <div class="unit-left">
+                    <div class="quote-carly-figure"><img src="images/user-5-62x62.jpg" alt="" width="62" height="62"/>
+                    </div>
+                  </div>
+                  <div class="unit-body">
+                    <div class="quote-carly-author">Christopher Martin</div>
+                    <div class="quote-carly-status">Client</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- Quote Carly-->
+            <article class="quote-carly quote-carly-1">
+              <div class="quote-carly-text">
+                <div class="q">Your technicians were extremely polite and thorough when I asked them to help me with the repair of my LA115 tractor. Thank you!</div>
+              </div>
+              <div class="quote-carly-footer">
+                <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                  <div class="unit-left">
+                    <div class="quote-carly-figure"><img src="images/user-6-62x62.jpg" alt="" width="62" height="62"/>
+                    </div>
+                  </div>
+                  <div class="unit-body">
+                    <div class="quote-carly-author">Ashley Perez</div>
+                    <div class="quote-carly-status">Client</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- Quote Carly-->
+            <article class="quote-carly quote-carly-1">
+              <div class="quote-carly-text">
+                <div class="q">I’ve been FixIt’s regular client since their Day 1 in business. They take care of everything my tractor needs including even the smallest repairs.</div>
+              </div>
+              <div class="quote-carly-footer">
+                <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                  <div class="unit-left">
+                    <div class="quote-carly-figure"><img src="images/user-7-62x62.jpg" alt="" width="62" height="62"/>
+                    </div>
+                  </div>
+                  <div class="unit-body">
+                    <div class="quote-carly-author">Michael Henderson</div>
+                    <div class="quote-carly-status">Client</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- Quote Carly-->
+            <article class="quote-carly quote-carly-1">
+              <div class="quote-carly-text">
+                <div class="q">I’m genuinely impressed by your level of service and customer commitment. You delivery exceptional tractor repair services. Thank you!</div>
+              </div>
+              <div class="quote-carly-footer">
+                <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                  <div class="unit-left">
+                    <div class="quote-carly-figure"><img src="images/user-8-62x62.jpg" alt="" width="62" height="62"/>
+                    </div>
+                  </div>
+                  <div class="unit-body">
+                    <div class="quote-carly-author">Rose Perry</div>
+                    <div class="quote-carly-status">Client</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Latest News-->
+      <section class="section section-xxl bg-gray-1">
+        <div class="container">
+          <h2 class="wow fadeScale">Latest News</h2>
+          <div class="row row-lg row-30 justify-content-center">
+            <div class="col-sm-8 col-md-6 wow fadeInLeft">
+              <!-- Post Nikki 2-->
+              <article class="post post-nikki post-nikki-2">
+                <div class="post-nikki-figure"><img src="images/post-1-570x461.jpg" alt="" width="570" height="461"/>
+                </div>
+                <div class="post-nikki-body">
+                  <div>
+                    <div class="post-nikki-time">
+                      <time datetime="2019-09-08">August 9, 2019</time>
+                    </div>
+                    <div class="post-nikki-title"><a href="blog-post.html">Top 5 Reasons to Regularly Maintain Your Tractor</a></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6">
+              <div class="row row-30">
+                <div class="col-6 col-md-12 wow fadeInRight">
+                  <!-- Post Nikki-->
+                  <article class="post post-nikki">
+                    <div class="unit unit-spacing-lg flex-column flex-md-row align-items-center">
+                      <div class="unit-left"><a class="post-nikki-figure" href="blog-post.html"><img src="images/post-2-270x215.jpg" alt="" width="270" height="215"/></a></div>
+                      <div class="unit-body">
+                        <div class="post-nikki-time">
+                          <time datetime="2019-09-08">August 9, 2019</time>
+                        </div>
+                        <div class="post-nikki-title font-weight-medium"><a href="blog-post.html">Popular Replacement Parts for Tractors and Combines</a></div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-6 col-md-12 wow fadeInRight">
+                  <!-- Post Nikki-->
+                  <article class="post post-nikki">
+                    <div class="unit unit-spacing-lg flex-column flex-md-row align-items-center">
+                      <div class="unit-left"><a class="post-nikki-figure" href="blog-post.html"><img src="images/post-3-270x215.jpg" alt="" width="270" height="215"/></a></div>
+                      <div class="unit-body">
+                        <div class="post-nikki-time">
+                          <time datetime="2019-09-08">August 9, 2019</time>
+                        </div>
+                        <div class="post-nikki-title font-weight-medium"><a href="blog-post.html">Why You Should Trust FixIt with Tractor Repair &amp; Maintenance</a></div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Clients-->
+      <section class="section section-xl bg-default">
+        <div class="container">
+          <div class="owl-carousel owl-style-2" data-items="1" data-sm-items="2" data-md-items="4" data-lg-items="4" data-margin="30" data-dots="true"><a class="clients-classic" href="#"><img src="images/clients-1-197x44.png" alt="" width="197" height="44"/></a><a class="clients-classic" href="#"><img src="images/clients-2-139x59.png" alt="" width="139" height="59"/></a><a class="clients-classic" href="#"><img src="images/clients-3-114x67.png" alt="" width="114" height="67"/></a><a class="clients-classic" href="#"><img src="images/clients-4-140x50.png" alt="" width="140" height="50"/></a></div>
+        </div>
+      </section>
+
+      <!-- Page Footer-->
+      <footer class="section footer-modern bg-image-1 context-dark footer-modern-2">
+        <div class="footer-modern-body section-xl context-dark">
           <div class="container">
-            <div class="row">
-              <div class="col-lg-5">
-                <h3>The Power of Bootstrap Toolkit</h3>
-                <p>We’ve made a huge effort to provide you with the extreme power of site building via Bootstrap Toolkit. It is one of the most modern and flexible solutions for everyone who wants their website working properly and according to the latest standards.</p>
+            <div class="row row-40 row-md-50 justify-content-xl-between">
+              <div class="col-md-10 col-lg-3 col-xl-4 wow fadeInRight">
+                <div class="inset-xl-right-70">
+                  <h5 class="footer-modern-title">Gallery</h5>
+                  <div class="row row-10 gutters-10" data-lightgallery="group">
+                    <div class="col-4 col-sm-2 col-lg-4">
+                      <!-- Thumbnail Minimal--><a class="thumbnail-minimal" href="images/grid-gallery-1-1200x800-original.jpg" data-lightgallery="item"><img src="images/grid-gallery-1-178x178.jpg" alt="" width="178" height="178"/></a>
+                    </div>
+                    <div class="col-4 col-sm-2 col-lg-4">
+                      <!-- Thumbnail Minimal--><a class="thumbnail-minimal" href="images/grid-gallery-2-1200x800-original.jpg" data-lightgallery="item"><img src="images/grid-gallery-2-178x178.jpg" alt="" width="178" height="178"/></a>
+                    </div>
+                    <div class="col-4 col-sm-2 col-lg-4">
+                      <!-- Thumbnail Minimal--><a class="thumbnail-minimal" href="images/grid-gallery-3-1200x800-original.jpg" data-lightgallery="item"><img src="images/grid-gallery-3-178x178.jpg" alt="" width="178" height="178"/></a>
+                    </div>
+                    <div class="col-4 col-sm-2 col-lg-4">
+                      <!-- Thumbnail Minimal--><a class="thumbnail-minimal" href="images/grid-gallery-4-1200x800-original.jpg" data-lightgallery="item"><img src="images/grid-gallery-4-178x178.jpg" alt="" width="178" height="178"/></a>
+                    </div>
+                    <div class="col-4 col-sm-2 col-lg-4">
+                      <!-- Thumbnail Minimal--><a class="thumbnail-minimal" href="images/grid-gallery-5-1200x800-original.jpg" data-lightgallery="item"><img src="images/grid-gallery-5-178x178.jpg" alt="" width="178" height="178"/></a>
+                    </div>
+                    <div class="col-4 col-sm-2 col-lg-4">
+                      <!-- Thumbnail Minimal--><a class="thumbnail-minimal" href="images/grid-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img src="images/grid-gallery-6-178x178.jpg" alt="" width="178" height="178"/></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-7 col-lg-5 wow fadeInRight" data-wow-delay=".1s">
+                <h5 class="footer-modern-title">Quick Links</h5>
+                <ul class="footer-modern-list footer-modern-list-2 d-sm-inline-block d-md-block">
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="our-team.html">Our Team</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+                  <li><a href="blog.html">Our Blog</a></li>
+                  <li><a href="tractor-parts.html">Tractor Parts</a></li>
+                  <li><a href="repairs.html">Repairs</a></li>
+                  <li><a href="#">Our Vision</a></li>
+                  <li><a href="#">Our Mission</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3 wow fadeInRight" data-wow-delay=".2s">
+                <h5 class="footer-modern-title">Get in touch</h5>
+                <ul class="contacts-creative">
+                  <li>
+                    <div class="unit unit-spacing-sm flex-column flex-md-row">
+                      <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
+                      <div class="unit-body"><a href="#">523 Sylvan Ave, 5th Floor<br/>Mountain View, CA 94041 USA</a></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit unit-spacing-sm flex-column flex-md-row">
+                      <div class="unit-left"><span class="icon mdi mdi-phone"></span></div>
+                      <div class="unit-body"><a href="tel:#">(+844) 123 456 78</a></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit unit-spacing-sm flex-column flex-md-row">
+                      <div class="unit-left"><span class="icon mdi mdi-email-outline"></span></div>
+                      <div class="unit-body"><a href="mailto:#">info@demolink.org</a></div>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="list-inline list-social-3 list-inline-sm">
+                  <li><a class="icon mdi mdi-facebook icon-xxs" href="#"></a></li>
+                  <li><a class="icon mdi mdi-twitter icon-xxs" href="#"></a></li>
+                  <li><a class="icon mdi mdi-instagram icon-xxs" href="#"></a></li>
+                  <li><a class="icon mdi mdi-google-plus icon-xxs" href="#"></a></li>
+                  <li><a class="icon mdi mdi-skype icon-xxs" href="#"></a></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <div class="object-wrap__body object-wrap__body-sizing-1 object-wrap__body-md-right bg-image" style="background-image: url(images/home-default-1-960x640.jpg)"></div>
-      </section>
-      <!--Content Driven Design-->
-      <section class="section-xl bg-default">
-        <div class="container">
-          <div class="row justify-content-md-center flex-lg-row-reverse align-items-lg-center justify-content-lg-between row-50">
-            <div class="col-md-9 col-lg-5">
-              <h3>Content Driven Design</h3>
-              <p>Unlike many other templates, Monstroid² is built around user content but not vice versa. Thus you may be sure when you add your own texts and images the template will look same cool and appealing.</p>
-            </div>
-            <div class="col-md-9 col-lg-6"><img src="images/home-default-2-652x491.jpg" alt="" width="652" height="491"/>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Blurbs-->
-      <section class="section-xl bg-gray-lighter">
-        <div class="container">
-          <div class="row row-50">
-            <div class="col-md-6 col-lg-4">
-              <!--Blurb minimal-->
-              <article class="blurb blurb-minimal">
-                <div class="unit flex-row unit-spacing-md">
-                  <div class="unit-left">
-                    <div class="blurb-minimal__icon"><span class="icon linear-icon-magic-wand"></span></div>
-                  </div>
-                  <div class="unit-body">
-                    <p class="blurb__title">Pixel Perfect Typography</p>
-                    <p>It’s impossible to ignore the fact that perfect typography is a key asset of design success. We concentrated on classic proportions, great readability and better user experience to produce modern and user friendly template that adds value to any project.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <!--Blurb minimal-->
-              <article class="blurb blurb-minimal">
-                <div class="unit flex-row unit-spacing-md">
-                  <div class="unit-left">
-                    <div class="blurb-minimal__icon"><span class="icon linear-icon-menu3"></span></div>
-                  </div>
-                  <div class="unit-body">
-                    <p class="blurb__title">Great for Any Device</p>
-                    <p>This template is fully responsive and Retina-ready, which means its ability to be displayed on any modern gadgets, from computers and laptops to smartphones and tablets. It is also perfectly optimized for high-resolution displays and other devices.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <!--Blurb minimal-->
-              <article class="blurb blurb-minimal">
-                <div class="unit flex-row unit-spacing-md">
-                  <div class="unit-left">
-                    <div class="blurb-minimal__icon"><span class="icon linear-icon-users2"></span></div>
-                  </div>
-                  <div class="unit-body">
-                    <p class="blurb__title">Made for People</p>
-                    <p>Monstroid² is built for real users that enjoy easy website development and at the same are looking for a clear and stunning design. Our template can provide you with lots of child themes that are available in the full version of this template.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--GPL3 License advantages-->
-      <section class="section-xl bg-default">
-        <div class="container">
-          <div class="row row-50 align-items-lg-center justify-content-lg-between">
-            <div class="col-lg-5">
-              <h3>Control Your Website</h3>
-              <p>Monstroid² gives you an ultimate set of tools that allow you to take full  control of your site with responsive & retina-ready design, child themes included with the full version, social integration, SEO optimization and other powerful features.</p>
-            </div>
-            <div class="col-lg-6">
-              <div class="row gallery-wrap">
-                <div class="col-6"><img src="images/home-default-3-301x227.jpg" alt="" width="301" height="227"/>
-                </div>
-                <div class="col-6"><img src="images/home-default-4-301x227.jpg" alt="" width="301" height="227"/>
-                </div>
-                <div class="col-6"><img src="images/home-default-5-301x227.jpg" alt="" width="301" height="227"/>
-                </div>
-                <div class="col-6"><img src="images/home-default-6-301x227.jpg" alt="" width="301" height="227"/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="bg-gray-dark text-center">
-              <!--RD Parallax-->
-              <div class="parallax-container bg-image rd-parallax-light" data-parallax-img="images/parallax-01.jpg">
-                <div class="parallax-content">
-                  <div class="container section-xxl">
-                    <h2>Like What We Offer?</h2>
-                    <p>Start with this demo now or check the others in the full version of Monstroid&#178;.</p><a class="button button-primary" href="#">View now!</a>
-                  </div>
-                </div>
-              </div>
-      </section>
-      <section class="section-xl bg-default text-center">
-        <div class="container">
-          <div class="row row-30 justify-content-lg-center">
-            <div class="col-lg-11 col-xl-9">
-              <h3>Represent Your Staff</h3>
-              <p>You can easily display the members of your staff, team or workforce. Within Monstroid² template you can present your team members using the perfectly looking and easy-to-use interface with special design and multiple styling options.</p>
-            </div>
-          </div>
-          <div class="row row-50 offset-top-1">
-            <div class="col-md-6 col-lg-4">
-              <!--Thumb corporate-->
-              <div class="thumb thumb-corporate">
-                <div class="thumb-corporate__main"><img src="images/brian-king-480x362.jpg" alt="" width="480" height="362"/>
-                  <div class="thumb-corporate__overlay">
-                    <ul class="list-inline-sm thumb-corporate__list">
-                      <li><a class="icon icon-sm fa-facebook" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-twitter" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-google-plus" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-vimeo" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-youtube" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-pinterest-p" href="#"></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="thumb-corporate__caption">
-                  <p class="thumb__title"><a href="#">Brian King</a></p>
-                  <p class="thumb__subtitle">Director</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <!--Thumb corporate-->
-              <div class="thumb thumb-corporate">
-                <div class="thumb-corporate__main"><img src="images/amanda-smith-480x362.jpg" alt="" width="480" height="362"/>
-                  <div class="thumb-corporate__overlay">
-                    <ul class="list-inline-sm thumb-corporate__list">
-                      <li><a class="icon icon-sm fa-facebook" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-twitter" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-google-plus" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-vimeo" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-youtube" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-pinterest-p" href="#"></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="thumb-corporate__caption">
-                  <p class="thumb__title"><a href="#">Amanda Smith</a></p>
-                  <p class="thumb__subtitle">Marketing manager</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <!--Thumb corporate-->
-              <div class="thumb thumb-corporate">
-                <div class="thumb-corporate__main"><img src="images/george-nelson-418x315.jpg" alt="" width="418" height="315"/>
-                  <div class="thumb-corporate__overlay">
-                    <ul class="list-inline-sm thumb-corporate__list">
-                      <li><a class="icon icon-sm fa-facebook" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-twitter" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-google-plus" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-vimeo" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-youtube" href="#"></a></li>
-                      <li><a class="icon icon-sm fa-pinterest-p" href="#"></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="thumb-corporate__caption">
-                  <p class="thumb__title"><a href="#">George Nelson</a></p>
-                  <p class="thumb__subtitle">Designer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Gallery-->
-      <section class="section-xl bg-default" data-lightgallery="group">
-        <div class="container-fluid">
-          <div class="row row-10 row-horizontal-10">
-            <div class="col-md-4 col-xl-3"><a class="thumb-modern" data-lightgallery="item" href="images/image-original-1-1200x905.jpg">
-                <figure><img src="images/home-default-7-472x355.jpg" alt="" width="472" height="355"/>
-                </figure>
-                <div class="thumb-modern__overlay"></div></a></div>
-            <div class="col-md-4 col-xl-3"><a class="thumb-modern" data-lightgallery="item" href="images/image-original-2-1200x905.jpg">
-                <figure><img src="images/home-default-8-472x355.jpg" alt="" width="472" height="355"/>
-                </figure>
-                <div class="thumb-modern__overlay"></div></a></div>
-            <div class="col-md-4 col-xl-3"><a class="thumb-modern" data-lightgallery="item" href="images/image-original-3-1200x906.jpg">
-                <figure><img src="images/home-default-9-472x355.jpg" alt="" width="472" height="355"/>
-                </figure>
-                <div class="thumb-modern__overlay"></div></a></div>
-            <div class="col-md-4 col-xl-3"><a class="thumb-modern" data-lightgallery="item" href="images/image-original-4-1200x905.jpg">
-                <figure><img src="images/home-default-10-472x355.jpg" alt="" width="472" height="355"/>
-                </figure>
-                <div class="thumb-modern__overlay"></div></a></div>
-            <div class="col-md-4 col-xl-3"><a class="thumb-modern" data-lightgallery="item" href="images/image-original-5-1200x905.jpg">
-                <figure><img src="images/home-default-11-472x355.jpg" alt="" width="472" height="355"/>
-                </figure>
-                <div class="thumb-modern__overlay"></div></a></div>
-            <div class="col-md-4 col-xl-3"><a class="thumb-modern" data-lightgallery="item" href="images/image-original-6-1200x905.jpg">
-                <figure><img src="images/home-default-12-472x355.jpg" alt="" width="472" height="355"/>
-                </figure>
-                <div class="thumb-modern__overlay"></div></a></div>
-            <div class="col-md-4 col-xl-3"><a class="thumb-modern" data-lightgallery="item" href="images/image-original-7-1200x906.jpg">
-                <figure><img src="images/home-default-13-472x355.jpg" alt="" width="472" height="355"/>
-                </figure>
-                <div class="thumb-modern__overlay"></div></a></div>
-            <div class="col-md-4 col-xl-3"><a class="thumb-modern" data-lightgallery="item" href="images/image-original-8-1200x906.jpg">
-                <figure><img src="images/home-default-14-472x355.jpg" alt="" width="472" height="355"/>
-                </figure>
-                <div class="thumb-modern__overlay"></div></a></div>
-          </div>
-        </div>
-      </section>
-      <!--Share Your Company Testimonials-->
-      <section class="section-lg bg-gray-lighter text-center">
-        <div class="container">
-          <h3>Share Your Company Testimonials</h3>
-          <!--Owl Carousel-->
-          <div class="owl-carousel owl-carousel-spacing-1" data-autoplay="true" data-items="1" data-stage-padding="15" data-loop="true" data-margin="30" data-nav="true">
-            <div class="item">
-              <!--Quote default-->
-              <div class="quote-default">
-                <svg class="quote-default__mark" version="1.1" baseprofile="tiny" x="0px" y="0px" width="30.234px" height="23.484px" viewbox="0 0 30.234 23.484">
-                  <g>
-                    <path d="M12.129,0v1.723c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959 c0,0.445,0.07,0.773,0.211,0.984c0.093,0.141,0.199,0.211,0.316,0.211c0.117,0,0.293-0.082,0.527-0.246 c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.519,0.545,3.551,1.635c1.031,1.09,1.547,2.385,1.547,3.885 c0,1.57-0.592,2.953-1.775,4.148c-1.184,1.195-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426 C0.715,19.441,0,17.274,0,14.555c0-3.164,0.972-6,2.918-8.508C4.863,3.539,7.933,1.524,12.129,0z M29.039,0v1.723 c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959c0,0.445,0.07,0.773,0.211,0.984 c0.094,0.141,0.199,0.211,0.316,0.211s0.293-0.082,0.527-0.246c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.52,0.545,3.551,1.635 s1.547,2.385,1.547,3.885c0,1.57-0.592,2.953-1.775,4.148s-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426 s-2.145-3.785-2.145-6.504c0-3.164,0.973-6,2.918-8.508C21.773,3.539,24.844,1.524,29.039,0z"></path>
-                  </g>
-                </svg>
-                <div class="quote-default__text">
-                  <p class="q">I love to use your ready-made and beautifully looking templates. They are available at very affordable prices and they save me a lot of time, and deliver from a lot of sweat and tears!</p>
-                </div>
-                <p class="quote-default__cite">Jane Smith</p>
-              </div>
-            </div>
-            <div class="item">
-              <!--Quote default-->
-              <div class="quote-default">
-                <svg class="quote-default__mark" version="1.1" baseprofile="tiny" x="0px" y="0px" width="30.234px" height="23.484px" viewbox="0 0 30.234 23.484">
-                  <g>
-                    <path d="M12.129,0v1.723c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959 c0,0.445,0.07,0.773,0.211,0.984c0.093,0.141,0.199,0.211,0.316,0.211c0.117,0,0.293-0.082,0.527-0.246 c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.519,0.545,3.551,1.635c1.031,1.09,1.547,2.385,1.547,3.885 c0,1.57-0.592,2.953-1.775,4.148c-1.184,1.195-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426 C0.715,19.441,0,17.274,0,14.555c0-3.164,0.972-6,2.918-8.508C4.863,3.539,7.933,1.524,12.129,0z M29.039,0v1.723 c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959c0,0.445,0.07,0.773,0.211,0.984 c0.094,0.141,0.199,0.211,0.316,0.211s0.293-0.082,0.527-0.246c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.52,0.545,3.551,1.635 s1.547,2.385,1.547,3.885c0,1.57-0.592,2.953-1.775,4.148s-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426 s-2.145-3.785-2.145-6.504c0-3.164,0.973-6,2.918-8.508C21.773,3.539,24.844,1.524,29.039,0z"></path>
-                  </g>
-                </svg>
-                <div class="quote-default__text">
-                  <p class="q">This template has everything I was looking for my business website to have. From easy-to-customize pages to flawlessly working web tools, Monstroid² is my number one choice!</p>
-                </div>
-                <p class="quote-default__cite">James Wilson</p>
-              </div>
-            </div>
-            <div class="item">
-              <!--Quote default-->
-              <div class="quote-default">
-                <svg class="quote-default__mark" version="1.1" baseprofile="tiny" x="0px" y="0px" width="30.234px" height="23.484px" viewbox="0 0 30.234 23.484">
-                  <g>
-                    <path d="M12.129,0v1.723c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959 c0,0.445,0.07,0.773,0.211,0.984c0.093,0.141,0.199,0.211,0.316,0.211c0.117,0,0.293-0.082,0.527-0.246 c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.519,0.545,3.551,1.635c1.031,1.09,1.547,2.385,1.547,3.885 c0,1.57-0.592,2.953-1.775,4.148c-1.184,1.195-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426 C0.715,19.441,0,17.274,0,14.555c0-3.164,0.972-6,2.918-8.508C4.863,3.539,7.933,1.524,12.129,0z M29.039,0v1.723 c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959c0,0.445,0.07,0.773,0.211,0.984 c0.094,0.141,0.199,0.211,0.316,0.211s0.293-0.082,0.527-0.246c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.52,0.545,3.551,1.635 s1.547,2.385,1.547,3.885c0,1.57-0.592,2.953-1.775,4.148s-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426 s-2.145-3.785-2.145-6.504c0-3.164,0.973-6,2.918-8.508C21.773,3.539,24.844,1.524,29.039,0z"></path>
-                  </g>
-                </svg>
-                <div class="quote-default__text">
-                  <p class="q">It’s great that there are such templates that are available to both professional and beginner web developers at affordable price. The job you did with this template is surely appreciated, thank you!</p>
-                </div>
-                <p class="quote-default__cite">Sam Lee</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="bg-accent">
-        <div class="container">
-          <div class="row justify-content-md-center align-items-lg-end">
-            <div class="col-md-8 col-lg-6 section-xl">
-              <h3>Haven’t Found What You Like? Browse Our Other Demos</h3>
-              <p>Monstroid² has everything to get you covered. Take a look at the child themes included with the full template version. They cover most popular spheres of interest including Art & Photography, Business, Education and Design.</p><a class="button button-gray-light-outline" href="#">View now!</a>
-            </div>
-            <div class="col-md-8 col-lg-6">
-              <div class="cat-img-group">
-                <div><img src="images/cat-2-507x508.jpg" alt="" width="507" height="508"/>
-                </div>
-                <div><img src="images/cat-1-326x427.jpg" alt="" width="326" height="427"/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Subscribe form-->
-      <section class="section-xl bg-default text-center" id="section-subscribe">
-        <div class="container">
-          <h5>Get latest news delivered daily! <br> We will send you breaking news right to your inbox.</h5>
-          <!--RD Mailform-->
-          <form class="rd-mailform rd-mailform_style-1 rd-mailform_sizing-1 rd-mailform-inline-flex text-center" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
-            <div class="form-wrap form-wrap_icon linear-icon-envelope">
-              <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
-              <label class="form-label" for="contact-email">Enter please your e-mail</label>
-            </div>
-            <button class="button button-primary" type="submit">Subscribe!</button>
-          </form>
-        </div>
-      </section><a class="section section-banner" href="//www.templatemonster.com/website-templates/monstroid2.html" style="background-image: url(images/banner/banner-bg-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/banner-bg-03-1920x310.jpg) 1x, url(images/banner/banner-bg-03-3840x620.jpg) 2x )"><img src="images/banner/banner-fg-03-1600x310.png" srcset="images/banner/banner-fg-03-1600x310.png 1x, images/banner/banner-fg-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
-      <!--Page Footer-->
-      <section class="pre-footer-corporate">
-        <div class="container">
-          <div class="row justify-content-sm-center justify-content-lg-start row-30 row-md-60">
-            <div class="col-sm-10 col-md-6 col-lg-10 col-xl-3">
-              <h6>About</h6>
-              <p>Monstroid² is HTML template that fits for both developers and beginners. It comes loaded with an assortment of tools and features that make customization process much easier. A pack of child themes, provided with the full version of this template, allows users to create a fully functional site for any specific business quickly and worry-free.</p>
-            </div>
-            <div class="col-sm-10 col-md-6 col-lg-3 col-xl-3">
-              <h6>Quick Links</h6>
-              <ul class="list-xxs">
-                <li><a href="#">Retina Homepage</a></li>
-                <li><a href="#">New Page Examples</a></li>
-                <li><a href="#">Parallax Sections</a></li>
-                <li><a href="#">Shortcode Central</a></li>
-                <li><a href="#">Ultimate Font Collection</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-10 col-md-6 col-lg-5 col-xl-3">
-              <h6>Recent Comments</h6>
-              <ul class="list-xs">
-                <li>
-                  <!--Comment minimal-->
-                  <article class="comment-minimal">
-                    <p class="comment-minimal__author">Brian Williamson on</p>
-                    <p class="comment-minimal__link"><a href="#">Site Speed and Search Engines Optimization Aspects</a></p>
-                  </article>
-                </li>
-                <li>
-                  <!--Comment minimal-->
-                  <article class="comment-minimal">
-                    <p class="comment-minimal__author">Brian Williamson on</p>
-                    <p class="comment-minimal__link"><a href="#">5 Things to Know Before You Buy an HTML Template</a></p>
-                  </article>
-                </li>
-                <li>
-                  <!--Comment minimal-->
-                  <article class="comment-minimal">
-                    <p class="comment-minimal__author">Brian Williamson on</p>
-                    <p class="comment-minimal__link"><a href="#">Turning Your Site into a Sales Machine</a></p>
-                  </article>
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-              <h6>Contacts</h6>
-              <ul class="list-xs">
-                <li>
-                  <dl class="list-terms-minimal">
-                    <dt>Address</dt>
-                    <dd>4578 Marmora Road, Glasgow, D04 89GR</dd>
-                  </dl>
-                </li>
-                <li>
-                  <dl class="list-terms-minimal">
-                    <dt>Phones</dt>
-                    <dd>
-                      <ul class="list-semicolon">
-                        <li><a href="tel:#">(800) 123-0045</a></li>
-                        <li><a href="tel:#">(800) 123-0045</a></li>
-                      </ul>
-                    </dd>
-                  </dl>
-                </li>
-                <li>
-                  <dl class="list-terms-minimal">
-                    <dt>E-mail</dt>
-                    <dd><a href="mailto:#">info@demolink.org</a></dd>
-                  </dl>
-                </li>
-                <li>
-                  <dl class="list-terms-minimal">
-                    <dt>We are open</dt>
-                    <dd>Mn-Fr: 10 am-8 pm</dd>
-                  </dl>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer class="footer-corporate">
-        <div class="container">
-          <div class="footer-corporate__inner">
-            <p class="rights">Monstroid&#178;&nbsp;&copy; <span class="copyright-year"></span>.
-              Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com">TemplateMonster</a>
-            </p>
-            <ul class="list-inline-xxs">
-              <li><a class="icon icon-xxs icon-primary fa fa-facebook" href="#"></a></li>
-              <li><a class="icon icon-xxs icon-primary fa fa-twitter" href="#"></a></li>
-              <li><a class="icon icon-xxs icon-primary fa fa-google-plus" href="#"></a></li>
-              <li><a class="icon icon-xxs icon-primary fa fa-vimeo" href="#"></a></li>
-              <li><a class="icon icon-xxs icon-primary fa fa-youtube" href="#"></a></li>
-              <li><a class="icon icon-xxs icon-primary fa fa-pinterest" href="#"></a></li>
-            </ul>
+        <div class="footer-modern-panel text-center">
+          <div class="container">
+            <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Fixit</span><span>.&nbsp; All rights reserved.</span><span>&nbsp;</span><a href="privacy-policy.html">Privacy Policy</a>. Design&nbsp;by&nbsp;<a href="https://zemez.io/">Zemez</a></p>
           </div>
         </div>
       </footer>
     </div>
-    <!--Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
-    <!--Javascript-->
-    <script src="js/core.min.js" defer></script>
-    <script src="js/script.js" defer></script>
-    <!--coded by ATOM-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
